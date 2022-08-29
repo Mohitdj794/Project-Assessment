@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Log in form</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <h1>HELLO AMIGO!!..PLAN YOUR TRAVEL CONFIDENCE WITH US </h1>
+     
+        <div class=".form">
+        <div class= "login"> 
+                <img class="logo" src="eg.jpeg" alt="A flight">
+
+            <p> Name</p>
+                <input type="text" id="na" placeholder="user name">
+                <span id="ferror" style="display:none; color: red;" >please enter the name</span>
+
+            <p>Email Id</p>
+            <input type="text" id="pas" placeholder="@gmail.com">
+            <span id="eerror" style="display:none; color: red;" >please enter valide email</span>
+
+            <p>Password</p>
+            <input type="password" id="passwor" placeholder="****">
+            <span id="perror" style="display:none; color: red;" >please enter valide password</span>
+
+                <p>FROM</p>
+                <input type="text" id="sa" placeholder="Enter Source">
+                <span id="serror" style="display:none; color: red;" >please enter valide Source</span>
+
+                <p>TO</p>
+                <input type="text" id="to" placeholder="Enter Destination">
+                <span id="terror" style="display:none; color: red;" >please enter valide Destination</span>
+
+              <div>
+                <button class="btn" onclick="valid()">Search</button>
+                <span id="berror" style="display:none; color: red;">please enter valide details</span>
+
+              </div>
+
+                <p>GUIDE LINES DOWN HERE!!...</p>
+                <div class="social">
+                    <a href="https://www.intermiles.com/blog/a-guide-on-how-to-book-flight-tickets"> <img class="cl" src="co.jpeg" alt="logo"></a>
+                </div>
+         </div>
+        </div>
+          <script src="./form.js"></script>
+    </body>
+</html>

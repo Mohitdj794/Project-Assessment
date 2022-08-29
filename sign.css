@@ -1,0 +1,104 @@
+body{
+    width: 100%;
+    height: 100vh;
+            margin:0;
+            padding:0;
+            background: url(home.jpeg); 
+            background-size:cover;
+            background-position:center
+            
+        }
+        
+            
+        .login{
+            width: 350px;
+            top:15%;
+            left:45%;
+            position:absolute;
+            border:3px; 
+            
+        }
+        .login p{
+            font-size: 25px;
+            color:antiquewhite;   
+            margin-bottom: 20px;
+            
+        }
+        .login input{
+           width: 80;
+           /* margin: 5% auto; */
+           border:none;
+           outline:none;
+           padding:10px;
+           border-radius: 10px;
+           color:rgb(5, 5, 5);
+           border-bottom: 1px solid rgba(199, 113, 113, 0.9);  
+        }
+        .login input:hover{
+            background-color: rgb(236, 220, 198);
+         }
+         h1{
+            text-align: center;
+            color:whitesmoke;
+           font-style: italic;
+             
+        }
+        a{
+            padding:24px;
+            width:100%;
+            color:antiquewhite;
+        }
+        .btn{
+            width:50%;
+            margin:3% auto;
+            color:aliceblue;
+            font-size: 15px;
+            opacity: .9;
+            background:rgba(255,255,255, 0.06);
+            padding:10px 30px;
+            border: none;
+            outline: none;
+            border-radius:40px;
+            text-shadow: 2px 2px 4px rgba(255,255,255, 0.2);
+            box-shadow: 3px 3px 5px rgba(31, 38, 135, .37);
+            border-left: 1px solid rgba(255,255,255,.3);
+            border-top: 1px solid rgba(255,255,255,.3);
+            /* margin-left: 30px; */
+
+        }
+
+        .btn:hover{
+            background-color: red;
+        }
+        a{
+            width:100%;
+            font-size: 25px;
+            float:right;
+            text-align:center;
+            padding: 0%;
+            margin: 0%;
+            
+        }
+  .logo{
+            width:130px;
+            border-radius: 65px;
+            margin-top: 10%;
+            margin-left: 5%;
+            
+
+      }
+    label{
+        color:red;
+    }
+
+ .cl {
+            width:40px;
+            border-radius: 20px;
+            margin-right: 18%;
+            display:none;
+
+        }
+#h2{
+display:none;
+}
+
